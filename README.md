@@ -1,4 +1,4 @@
-# CloudFlareChecker
+# CloudFlareDetector
 v1.0
 
 This script is used to check if a website is using CloudFlare.
