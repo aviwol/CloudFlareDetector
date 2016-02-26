@@ -27,7 +27,7 @@ def check_all_headers(headers):
 def final_answer():
     if CF_LOG['headers_found'] > 0:
         print "CloudFlare found using the following headers:"
-        print CF_LOG['headers']
+        for h in CF_LOG['headers']: print str(h)
     else:
         print "No CloudFlare found!"
 
