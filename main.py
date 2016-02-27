@@ -36,7 +36,7 @@ def get_arguments():
         URL = sys.argv[1]
         check_all_headers(check_get_headers(URL))
     else:
-        print "usauge: python xxx.com"
+        print "usage: python main.py xxx.com"
         
 if __name__ == '__main__':
     get_arguments()
